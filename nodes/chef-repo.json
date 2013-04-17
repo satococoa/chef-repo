@@ -11,6 +11,7 @@
     "iptables::development",
     "git",
     "sqlite",
+    "nodejs::install_from_binary",
     "rbenv"
   ]
 }
