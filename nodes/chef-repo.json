@@ -1,7 +1,16 @@
 {
+  "user":{
+    "home":"/home/vagrant",
+    "name":"vagrant",
+    "group":"vagrant"
+  },
+  "rbenv":{
+    "version":"1.9.3-p392"
+  },
   "run_list":[
-    "git",
     "iptables::development",
-    "sqlite"
+    "git",
+    "sqlite",
+    "rbenv"
   ]
 }
