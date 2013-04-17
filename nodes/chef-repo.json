@@ -1,6 +1,7 @@
 {
   "run_list":[
     "git",
-    "iptables::development"
+    "iptables::development",
+    "sqlite"
   ]
 }
