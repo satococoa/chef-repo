@@ -7,11 +7,17 @@
   "rbenv":{
     "version":"1.9.3-p392"
   },
+  "mysql":{
+    "server_debian_password": "password",
+    "server_root_password": "password",
+    "server_repl_password": "password"
+  },
   "run_list":[
     "iptables::development",
     "git",
     "sqlite",
     "nodejs::install_from_binary",
-    "rbenv"
+    "rbenv",
+    "mysql::server"
   ]
 }
