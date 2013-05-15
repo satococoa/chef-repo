@@ -5,7 +5,7 @@
     "group":"vagrant"
   },
   "rbenv":{
-    "version":"1.9.3-p429"
+    "version":"2.0.0-p195"
   },
   "mysql":{
     "server_debian_password": "password",
