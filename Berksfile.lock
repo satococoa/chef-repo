@@ -1,9 +1,31 @@
-cookbook 'yum', :locked_version => '2.2.0'
-cookbook 'nodejs', :locked_version => '1.1.2'
-cookbook 'mysql', :locked_version => '3.0.0'
-cookbook 'nginx', :locked_version => '1.6.0'
-cookbook 'build-essential', :locked_version => '1.3.4'
-cookbook 'apt', :locked_version => '1.9.2'
-cookbook 'openssl', :locked_version => '1.0.2'
-cookbook 'runit', :locked_version => '1.1.4'
-cookbook 'ohai', :locked_version => '1.1.8'
+{
+  "sources": {
+    "yum": {
+      "locked_version": "2.2.0"
+    },
+    "nodejs": {
+      "locked_version": "1.1.2"
+    },
+    "mysql": {
+      "locked_version": "3.0.0"
+    },
+    "nginx": {
+      "locked_version": "1.6.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "apt": {
+      "locked_version": "1.9.2"
+    },
+    "openssl": {
+      "locked_version": "1.0.2"
+    },
+    "runit": {
+      "locked_version": "1.1.4"
+    },
+    "ohai": {
+      "locked_version": "1.1.8"
+    }
+  }
+}
